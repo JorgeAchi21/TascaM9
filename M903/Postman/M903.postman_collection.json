@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "79a5383e-ddd9-4f00-9aaf-14cb2898b5fe",
+		"name": "M903",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 Home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{ip}}{{port}}/M903/public/index.php",
+					"protocol": "http",
+					"host": [
+						"{{ip}}{{port}}"
+					],
+					"path": [
+						"M903",
+						"public",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 Cursos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{ip}}{{port}}/M903/public/index.php/cursos",
+					"protocol": "http",
+					"host": [
+						"{{ip}}{{port}}"
+					],
+					"path": [
+						"M903",
+						"public",
+						"index.php",
+						"cursos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 Cursos/create",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{ip}}{{port}}/M903/public/index.php/cursos/create",
+					"protocol": "http",
+					"host": [
+						"{{ip}}{{port}}"
+					],
+					"path": [
+						"M903",
+						"public",
+						"index.php",
+						"cursos",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 Cursos/create/javascript",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://{{ip}}{{port}}/M903/public/index.php/cursos/javascript",
+					"protocol": "http",
+					"host": [
+						"{{ip}}{{port}}"
+					],
+					"path": [
+						"M903",
+						"public",
+						"index.php",
+						"cursos",
+						"javascript"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,277 @@
+{
+	"info": {
+		"_postman_id": "dcad8cb1-5a97-4879-8e1f-f33d3d8aa773",
+		"name": "M902",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1 Home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.1.12/M902/public/index.php",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"12"
+					],
+					"path": [
+						"M902",
+						"public",
+						"index.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2 Paises",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.1.12/M902/public/index.php/paises",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"12"
+					],
+					"path": [
+						"M902",
+						"public",
+						"index.php",
+						"paises"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3 Paises",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "192.168.1.12/M902/public/index.php/paises",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"12"
+					],
+					"path": [
+						"M902",
+						"public",
+						"index.php",
+						"paises"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 Paises alemania G",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.1.12/M902/public/index.php/paises/alemania",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"12"
+					],
+					"path": [
+						"M902",
+						"public",
+						"index.php",
+						"paises",
+						"alemania"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5 Paises alemania P",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "192.168.1.12/M902/public/index.php/paises/alemania",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"12"
+					],
+					"path": [
+						"M902",
+						"public",
+						"index.php",
+						"paises",
+						"alemania"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6 Paises alemania D",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "192.168.1.12/M902/public/index.php/paises/alemania",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"12"
+					],
+					"path": [
+						"M902",
+						"public",
+						"index.php",
+						"paises",
+						"alemania"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7 Paises alemania departamentos G",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.1.12/M902/public/index.php/paises/alemania/departamentos",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"12"
+					],
+					"path": [
+						"M902",
+						"public",
+						"index.php",
+						"paises",
+						"alemania",
+						"departamentos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "8 Paises alemania departamentos P",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "192.168.1.12/M902/public/index.php/paises/alemania/departamentos",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"12"
+					],
+					"path": [
+						"M902",
+						"public",
+						"index.php",
+						"paises",
+						"alemania",
+						"departamentos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "9 Paises alemania departamentos central G",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "192.168.1.12/M902/public/index.php/paises/alemania/departamentos/central",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"12"
+					],
+					"path": [
+						"M902",
+						"public",
+						"index.php",
+						"paises",
+						"alemania",
+						"departamentos",
+						"central"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "10 Paises alemania departamentos central P",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "192.168.1.12/M902/public/index.php/paises/alemania/departamentos/central",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"12"
+					],
+					"path": [
+						"M902",
+						"public",
+						"index.php",
+						"paises",
+						"alemania",
+						"departamentos",
+						"central"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "11 Paises alemania departamentos central D",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "192.168.1.12/M902/public/index.php/paises/alemania/departamentos/central",
+					"host": [
+						"192",
+						"168",
+						"1",
+						"12"
+					],
+					"path": [
+						"M902",
+						"public",
+						"index.php",
+						"paises",
+						"alemania",
+						"departamentos",
+						"central"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
